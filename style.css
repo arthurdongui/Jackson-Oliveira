@@ -1,0 +1,358 @@
+body{
+    margin: 0px;
+    margin-bottom: 0px;
+    box-sizing: border-box;
+}
+
+.box{
+    background: linear-gradient(350deg, rgb(0, 0, 0),rgb(10, 2, 39));
+    top: 0px;
+    height: 125px;
+    width: 1339px;
+    border-radius: 3px;
+}
+
+.img1{
+    display: flex;
+    position: relative;
+    left: 60px;
+    top: -195px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.text6{
+    max-width: 750px;
+    display: flex;
+    position: relative;
+    top: -80px;
+    left: 200px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.text6 a{
+    color: #ffff;
+    text-decoration: none;
+    padding-right: 35px;
+    font-size: 18px;
+    position: relative;
+}
+
+.text6 a::after{
+    content: " ";
+    width: 0px;
+    height: 5px;
+    background-image: linear-gradient(45deg, #222769, #0a0c4d);
+    position: absolute;
+    top: 27px;
+    left: 0;
+    transition: width 0.5s;
+}
+
+.text6 a:hover::after{
+    width: 30px;
+}
+
+.sociais button{
+    left: 1015px;
+    top: -113px;
+    background-image: linear-gradient(45deg, #272c74, #0b0d68);
+    margin-right: 8px;
+    cursor: pointer;
+    transition: background 2s;
+    text-decoration: none;
+}
+
+.sociais button{
+    font-size: 20px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.about,.my-object,.my-dream{
+    width: 25%;
+}
+
+h1{
+    display: grid;
+    margin-top: -600px;
+    color: rgb(82, 80, 80);
+    font-size: 350%;
+    place-items: center;
+}
+
+.triangulo{
+    position: relative;
+    left: 530px;
+    top: -750px;
+    width: 0px;
+    height: 0px;
+    border-bottom: 120px solid #070c52;
+    border-left: 120px solid transparent;
+    border-right: 130px solid transparent;
+}
+
+.triangulo2{
+    position: relative;
+    left: 530px;
+    top: -740px;
+    width: 0px;
+    height: 0px;
+    border-bottom: 120px solid #1d108d;
+    border-left: 120px solid transparent;
+    border-right: 130px solid transparent;
+    transform: rotate(540deg);
+}
+
+a:hover {
+color: rgb(180, 179, 179);
+}
+
+.box{
+    border: 12px;
+    color: black;
+    padding: 5px;
+}
+
+.box1{
+    background: linear-gradient(350deg, black, gray);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.box2{
+    background: linear-gradient(350deg, rgb(3, 3, 39),rgb(23, 27, 104));
+    position: relative;
+    left: -8px;
+    top: 0px;
+    height: 170px;
+    width: 1345px;
+}
+
+.box5{
+    border-radius: 16px;
+    line-height: 175px;
+    text-align: center;
+    margin-top: 0;
+    background: linear-gradient(350deg, rgb(3, 3, 129),rgb(87, 90, 153));
+    color: rgb(3, 3, 3);
+    height: 150px;
+    left: 0px;
+    top: 0px;
+    font-size: 80px;
+    text-shadow: 1px 1px 10px rgba(15, 12, 12, 0.493);
+    font-family: 'italic';
+    letter-spacing: 2px;
+    word-spacing: 20px;
+    letter-spacing: 15px;
+}
+
+.text1{
+    font-size: 18px;
+    line-height: 3px;
+}
+
+h2{
+    display: grid;
+    place-items: center;
+    font-size: 30px;
+    color: rgb(80, 80, 80);
+    font-family: 'italic';
+}
+
+#My-Dream{
+    display: grid;
+    place-items: center;
+    font-size: 30px;
+    color: rgb(80, 80, 80);
+    font-family: 'italic';
+}
+
+.text3{
+    line-height: 5px;
+}
+.text4{
+    text-decoration: underline;
+}
+   
+h5{
+    margin: 2px;
+    font-size: 14px;
+}
+
+button {
+   font-weight: bold;
+   position: relative;
+   left: 1060px;
+   top: calc(-15px);
+   border: 0;
+   line-height: 2.5;
+   padding: 0 20px;
+   font-family: 'Times New Roman', sans-serif;
+   text-align: center;
+   color: rgb(27, 27, 27);
+   border-radius: 13px;
+   background-color: rgb(197, 197, 199);
+   background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
+   box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3pxrgba(0, 0, 0, 0.6);
+}
+
+.styled:hover {
+   background-color: rgb(109, 109, 109);
+}
+
+.styled:active {
+   box-shadow: inset -5px -5px 5px rgba(129, 6, 211, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+iframe{
+margin: 0px 0px 0px 385px;
+}
+
+.carrossel{
+    background-image: linear-gradient(45deg, #272c72, #0c0d63);
+    border-radius: 16px;
+    width: 400px;
+    height: 455px;
+    /*outline: 3px solid black;*/
+    overflow: hidden;
+    margin: 35px;
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.7);
+    margin-top: 10px;
+}
+
+.carrossel ul{
+   display: flex;
+   list-style: none;
+   width: 1200px;
+   height: 250px;
+}
+
+.carrossel li{
+  position: relative;
+  animation: slide 25s infinite ease-out;
+}
+
+@keyframes slide{
+    0%{left: -40px}
+    20%{left:-40px}
+    40%{left: -490px}
+    60%{left: -490px}
+    80%{left: -910px}
+    90%{left: -910px}
+    100%{left: 0px};
+}
+
+/*carrossel 1*/
+
+.carrossel1{
+    background-image: linear-gradient(45deg, #272c72, #0c0d63);
+    border-radius: 16px;
+    width: 400px;
+    height: 455px;
+    /*outline: 3px solid black;*/
+    overflow: hidden;
+    margin: 460px;
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.7);
+    margin-top: -490px;
+}
+
+.carrossel1 ul{
+   display: flex;
+   list-style: none;
+   width: 1200px;
+   height: 250px;
+}
+
+.carrossel1 li{
+
+  position: relative;
+  animation: slide 23s infinite ease-out;
+}
+
+@keyframes slide{
+    0%{left: -40px}
+    20%{left:-40px}
+    40%{left: -470px}
+    60%{left: -470px}
+    80%{left: -910px}
+    90%{left: -910px}
+    100%{left: 0px};
+}
+
+/*carrossel 2*/
+
+.carrossel2{
+    background-image: linear-gradient(45deg, #272c72, #0c0d63);
+    width: 400px;
+    height: 455px;
+    /*outline: 3px solid black;*/
+    overflow: hidden;
+    margin: 890px;
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.7);
+    margin-top: -914px;
+    border-radius: 16px;
+}
+
+.carrossel2 ul{
+   display: flex;
+   list-style: none;
+   width: 1200px;
+   height: 250px;
+}
+
+.carrossel2 li{
+  position: relative;
+  animation: slide 25s infinite ease-out;
+}
+
+@keyframes slide{
+    0%{left: -40px}
+    20%{left:-40px}
+    30%{left: -470px}
+    40%{left: -470px}
+    60%{left: -910px}
+    70%{left: -910px}
+    80%{left: -1340px}
+    90%{left: -1340px}
+    100%{left:0px};
+}
+
+.text2{
+    position: absolute;
+    left: 30px;
+    top: 175px;
+}
+
+.bigger {
+    color: #2f0eec;
+    font-size: x-large;
+  }
+
+.video{
+    position: absolute;
+    left: 250px;
+    top: 280px;
+}
+
+.box6{
+    position: relative;
+    border-radius: 16px;
+    line-height: 175px;
+    background: linear-gradient(350deg, rgb(3, 3, 129),rgb(87, 90, 153));
+    color: rgb(3, 3, 3);
+    height: 150px;
+    left: 0px;
+    top: 710px;
+    height: 100px;  
+}
+
+.suporte{
+    position: relative;
+    top: -87px;
+    left: 71px;
+    font-size: 20px;
+}

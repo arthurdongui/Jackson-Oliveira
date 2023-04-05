@@ -1,0 +1,99 @@
+<!--
+    Tags Java SC
+ 
+    * //:        Fazer um comentario ou ignorar códigos
+    * String:    É uma cadeia de caracteres, ABC
+    * Number:    Números, inteiros, quebrados...
+    * Boolean:   Um tipo de dado que só tem dois valores, verdadeiro ou falso  (Usado para lógica na hora de programar)
+    * Undefined: Objeto Indefinido
+    * Null:      Objeto que não possui nada dentro
+    * Object:    Objeto, dado estrutural, cria uma estrutura (Propriedades, atributos: Funcionalidades)
+    * Array:     Agrupamento de dados, lista.
+    * 
+-->
+
+
+
+<!-- 
+    Tipos de dados
+
+Array
+map
+set
+date
+function
+-->
+
+
+
+<!-- 
+    Variáveis (Ex... Armário, memória do pc)
+
+    * Variáveis são nomes simbólicos para receber algum valor
+    * Atalho de código
+    * Identificadores
+    * 3 palavras reservadas para cirar uma variável
+       -Var
+       -Let
+       -Const
+
+       Após utilizalas, temos que atribuir um valor a elas... Clima, name, number...
+-->
+
+
+
+
+
+<!--    Java Script    
+
+<script>
+
+    //variáveis e tipos de dados
+    //declaração or declaration
+var name
+
+// assignment or atribuição de valores
+name = "Arthur"
+
+//Que tipo de dado foi colocado na váriavel
+//console.log(typeof name)
+
+//agrupamento de declarações
+let age, isHuman
+
+age =  19
+isHuman = true
+
+//Multiplos argumentos na função
+//Console.log(name, age, ishuman)
+
+// Jeito de escrita + váriaveis concatenando os valores
+
+//console.log('O ' + name + ' tem ' + age + ' anos.')
+
+// interpolando valores com templade literals or templade strings 
+
+console.log(`o ${name} tem ${age} anos.`)
+</script>
+
+
+
+
+Criando uma Fuction, um novo Objeto
+
+
+function Person(name) {
+    this.name = name
+    this.walk = function() {
+        return this.name + " Esta voando"
+    }
+}
+
+const Davi = new Person("Davi")
+const Joao = new Person("Joao")
+console.log(Davi.walk())
+console.log(Joao.walk())
+
+
+
+

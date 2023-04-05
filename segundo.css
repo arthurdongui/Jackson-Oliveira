@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    background: linear-gradient(350deg, rgb(0, 0, 0),rgb(0, 0, 0));
+    top: 0px;
+    height: 125px;
+    width: 1390px;
+    border-radius: 3px;
+}
+
+.img1{
+    display: flex;
+    position: relative;
+    left: 60px;
+    top: -195px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.heade{
+    max-width: 750px;
+    display: flex;
+    position: relative;
+    top: -80px;
+    left: 200px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.container a{
+    color: #ffff;
+    text-decoration: none;
+    padding-right: 35px;
+    font-size: 18px;
+    position: relative;
+}
+
+.text6 a::after{
+    content: " ";
+    width: 0px;
+    height: 5px;
+    background-image: linear-gradient(45deg, #272c72, #0c0d63);
+    position: absolute;
+    top: 27px;
+    left: 0;
+    transition: width 0.5s;
+}
+
+.text6 a:hover::after{
+    width: 30px;
+}
+
+.sociais button{
+    left: 1015px;
+    top: -113px;
+    background-image: linear-gradient(45deg, #3a3f85, #101283);
+    margin-right: 8px;
+    cursor: pointer;
+    transition: background 2s;
+    text-decoration: none;
+}
+
+.sociais button{
+    font-size: 20px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.about,.my-object,.my-dream{
+    width: 25%;
+}

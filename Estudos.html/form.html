@@ -1,0 +1,91 @@
+
+<form id="Meu-form"></form>
+<input type="type" form="meu-Form">
+<!--
+   Tags:
+ 
+   * <input type= "text": Usado para escrever caracteres normais
+   * <input type= "date": inserir somente data
+   * <input type= "number": somente número
+   * <input type= "email": aparece normal, mas só aceita E-mail
+   * <input type= "file": puxa arquivos do computador
+   * <input type= "password": Usado para inserir senhas com mais segurança
+   * <input type= "text" autocomplite: Completa informações já usadas anteriormente
+   * <input type= "text" autofocos: Quando a página for carrega, este elemento terá prioridade
+   * <input type= "text" disabled: Deixa a caixa desabilitada
+   * <input type= "text" raedonly: Deixa a caixa desabilitada (Descretamente)
+   * <input type= "text" form
+   * <input Name= "arthur": indetificação
+   * <input type= "type" required>: Obriga a colocar valores para o envio do relatório
+   * <input type= "E-mail" placeholder="Digite seu E-mail"
+   * minlength="5": Minimo de caracteres 
+   * maxlength="8": Maximo de caracteres
+   * <input type= "password" size="8": Tamanho do campo
+   * <input type= "password" pattern="": Usado para quando quero que seja inserido coisas expecificas na senha
+   * <input type= "password" placeholder="": Coloque sua senha
+   * Wrap:"of" não quebra o texto dentro da caixa 
+
+
+
+    <form>
+
+    -Elemento que definará um formulário
+    -É um container  estilo <section> <footer>
+
+        atributos básicos
+        -action: Para onde o formulário será submetido
+        -method
+-->
+
+<form action="">
+    <fieldset>
+        <legend>Informações do livro:</legend>
+        <label for="">Nome:</label>
+        <input type="text">
+    </fieldset>
+</form>
+
+
+
+<!--
+    <label>
+
+    -Associar e identificar uma ou mais tag de entrada de dados.
+    -Acessibilidade
+    -Você pode Clicar para mudar o foco de dador   
+
+    Atributos
+    -For
+
+    -para fazer a conexão entre label e a tag de entrada de dados.
+    -É feita via id do input 
+    -Só funciona com elementos específicos 
+    -Button, input (not hidden), meter, output, progress, select, textarea
+
+-->
+
+
+</label for="destinátario"> Nome do livro</label>
+<input id="destinátario" type="">
+
+<!--
+
+<datalist>
+
+    -lista de valores como sugustão a tag input
+    -valores sugestivos e não obrigatórios
+    -Usuario podera selecionar um dos valores, ou colocar um valor diferente da sugestão.
+-->
+
+<input 
+type="text" 
+list="fruitsdata"
+placeholder="Tema"/>
+
+
+<datalist id="fruitsdata">
+ 
+     <option>Terror</option>
+     <option>Ação</option>
+
+</datalist>
